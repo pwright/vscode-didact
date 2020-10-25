@@ -1,6 +1,12 @@
 # Creating a new Didact tutorial and registering it with the Didact Tutorials view!
 
-Didact is an extension for VS Code that provides a simple Markdown-based way to create tutorials that launch VS Code commands and walk users through performing particular tasks. See the [VSCode Didact readme about link formatting for more information](https://github.com/redhat-developer/vscode-didact/blob/master/README.md)!
+Didact is an extension for VS Code that provides a way to create interactive tutorials using either Markdown or AsciiDoc.  The tutorial user clicks on:
+
+* Prerequisites - In the background VS Code runs the necessary commands to check software installations.
+* Commands - VS Code runs the associated command(s) in a terminal that's controlled by the tutorial.
+
+**Additional information**
+See the [VSCode Didact readme](https://github.com/redhat-developer/vscode-didact/blob/master/README.md) for more information about other Didact features.
 
 This Didact-based tutorial will walk you through the steps required to create a new VS Code extension that registers a new Didact tutorial.
 
